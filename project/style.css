@@ -28,7 +28,10 @@ p{
     margin-left: 5%;
     padding-left: 2%;
 }
-
+section{
+    width: 100%;
+    overflow: hidden;
+}
 .half-width img{
     width: 100%;
 }
@@ -79,4 +82,51 @@ padding: 35px 0px 35px 35px;
 
 section{
     padding-bottom: 150px;
+}
+.project{
+    text-align: center;
+    background: #ddd;
+    padding: 100px 0px;
+}
+.project h2 span{
+    padding-right: 15px;
+}
+.single-project {
+    padding: 20px;
+    width: 25%;
+    float: left;
+    background: #fff;
+    margin: 0px 15px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 4px 0px #ccc;
+}
+.single-project img{
+    width: 90%;
+}
+.project-are{
+width: 100%; 
+overflow: hidden;
+padding-top: 70px;
+margin-left: 5%;
+}
+.work-area {
+    width: 1000px;
+    padding: 90px 0px;
+    background-image: url(images/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 150px 250px;
+}
+.work-area img{
+    width: 70%;
+}
+.work-area h2 {
+    display: inline-block;
+    margin-left: 100px;
+    color: white;
+}
+.work-area a{
+    float: right;
+    margin-right: 100px;
 }
