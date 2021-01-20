@@ -117,6 +117,7 @@ margin-left: 5%;
     background-repeat: no-repeat;
     background-position: center center;
     margin: 150px 250px;
+    border-radius: 20px;
 }
 .work-area img{
     width: 70%;
@@ -126,7 +127,24 @@ margin-left: 5%;
     margin-left: 100px;
     color: white;
 }
-.work-area a{
+.work-area a {
     float: right;
     margin-right: 100px;
+    margin-top: 36px;
+}
+
+.last-area{
+    text-align: center;
+}
+h3{
+    font-size: 25px
+}
+.icon{
+    padding-left: 0px;
+
+    margin-left: 5px;
+    display: inline-block;
+}
+.icon img{
+    width: 50%;
 }
